@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Login from './components/LS/Login';
 import Navi from './components/Navbar/Navbar';
+import Home from './components/Home/Home'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
