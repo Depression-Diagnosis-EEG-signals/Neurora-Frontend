@@ -1,0 +1,22 @@
+.Upload {
+    background-color: rgb(203, 229, 248);
+    align-items: center;
+    padding-top: 4%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    text-align: center;
+    font-size: 55px;
+    color: rgb(37, 67, 88);  
+     
+}
+
+.form {
+    font-size: 21px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding-bottom: 19px;
+
+}
