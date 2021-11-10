@@ -1,12 +1,13 @@
-import './Upload.css';
+import './Upoad.css';
 import Form from 'react-bootstrap/Form';
 import { Row, Col } from "react-bootstrap";
+import Navi from '../Navbar/Navbar';
 
 
 function Upload() {
     return (
       <div className="Upload">
-         
+         <Navi/>
           <p className="head">Upload EEG Signals</p>
 
       <div className="form">  

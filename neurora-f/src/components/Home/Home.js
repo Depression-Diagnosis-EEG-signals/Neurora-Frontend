@@ -1,9 +1,8 @@
-import Nav from 'react-bootstrap/Nav'
-import Navi from '../Navbar/Navbar';
+
 function Home() {
+  console.log("This is Home");
   return (
     <div className="Home">
-        <Navi/>
         <p>Homepage</p>
     </div>
   );
