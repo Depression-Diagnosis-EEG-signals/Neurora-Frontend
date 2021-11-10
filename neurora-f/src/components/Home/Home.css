@@ -1,0 +1,59 @@
+.Home{
+    font-family: 'Raleway' , sans-serif;
+}
+
+/* Cards */
+.col{
+    padding: 25px;
+    text-align: center;
+}
+
+.col1{
+    background-color: #1a2c5b;
+}
+
+.col2{
+    background-color: #3e4e88;
+}
+
+.col3{
+    background-color: #7971ea;
+}
+
+.home-card-content{
+    margin: auto;
+}
+
+.home-card-svg-title{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.home-card-svg-title-text{
+    color: #f5f3f3;
+}
+
+.home-card-svg-title-para{
+    padding-top: 15px;
+    margin: auto;
+    color: #f5f3f3;
+    font-size: 0.7em;
+}
+
+.about-clinic{
+    padding-top: 150px;
+}
+
+.about-clinic-content-heading{
+    font-size: 40px;
+}
+
+.about-clinic-content-byline{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-clinic-content{
+    padding-top: 25px;
+}
+

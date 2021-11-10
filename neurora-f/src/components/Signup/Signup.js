@@ -9,6 +9,13 @@ function Signup() {
             <div class="formBx">
               <form action="" onsubmit="return false;">
                 <h2>Create an account</h2>
+                <select id="role" name="role" placeholder="Select your Role">
+                  <option value="" disabled selected>
+                    Select your Role
+                  </option>
+                  <option value="Doctor">Doctor</option>
+                  <option value="Patient">Patient</option>
+                </select>
                 <input type="text" name="" placeholder="Username" />
                 <input type="email" name="" placeholder="Email Address" />
                 <input type="password" name="" placeholder="Create Password" />
