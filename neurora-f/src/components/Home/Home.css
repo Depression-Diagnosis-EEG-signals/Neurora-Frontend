@@ -45,7 +45,7 @@
 }
 
 .about-clinic-content-heading{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .about-clinic-content-byline{
@@ -56,4 +56,8 @@
 .about-clinic-content{
     padding-top: 25px;
 }
+
+
+/* accordion */
+
 
