@@ -14,9 +14,13 @@ function Home() {
               sit amet, consectetur adipiscing elit. Vestibulum consequat
               scelerisque elit sit amet consequat.
             </p>
-            <button class="btn btn-primary btn-lg" type="button">
-              Learn More
-            </button>
+            <div class="learn-more">
+              Click
+              <a href="#faq" class="learn-more-btn">
+                here
+              </a>
+              to learn more
+            </div>
           </div>
         </div>
 
@@ -105,7 +109,7 @@ function Home() {
           <div class="col-4">
             <Image src={person1} fluid />
           </div>
-          <div class="col-8 about-clinic-content">
+          <div class="col-8 about-clinic-content" id="faq">
             <span class="about-clinic-content-heading">About Our Clinic</span>
             <p class="about-clinic-content-byline">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -1,0 +1,29 @@
+
+
+
+.service-card{
+    padding: 10px;
+    border-color: rgb(0, 174, 255);
+}
+
+.card-title-css{
+    color: rgb(0, 174, 255);
+    padding: 20px;
+}
+
+.service-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-col{
+    background-color:#7971ea;
+}
+
+.details-card-row{
+    background-color:rgb(211, 215, 218)
+}
+
+.details-card-row-right{
+    background-color:rgb(176, 227, 250)
+}
+

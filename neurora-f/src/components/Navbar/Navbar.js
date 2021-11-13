@@ -17,10 +17,10 @@ function Navi() {
                 Home
               </Nav.Link>
               <Nav.Link as={Link} to={"/about"}>
-                About Us
+                About
               </Nav.Link>
               <Nav.Link as={Link} to={"/contact"}>
-                Contact Us
+                Contact
               </Nav.Link>
               <Nav.Link as={Link} to={"/profile"}>
                 Profile
