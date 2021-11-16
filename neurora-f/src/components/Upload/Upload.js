@@ -1,13 +1,13 @@
 import './Upoad.css';
 import Form from 'react-bootstrap/Form';
 import { Row, Col } from "react-bootstrap";
-import Navi from '../Navbar/Navbar';
+import Button from 'react-bootstrap/Button'
 
 
 function Upload() {
     return (
       <div className="Upload">
-         <Navi/>
+        
           <p className="head">Upload EEG Signals</p>
 
       <div className="form">  
@@ -55,14 +55,19 @@ function Upload() {
   </Form.Group>
   <Form.Group controlId="formFile"  className="mb-3">
     <Form.Label>Upload recording in csv format-</Form.Label>
-    <Form.Control type="file" size="lg" />
+    <Form.Control type="file"  size="lg"  />
   </Form.Group>
 </Form>
-
+<div className="btt">
+<Button variant="success"  size="lg">Submit</Button>{' '}
+</div>
 
 </div>
+
       </div>
+      
     );
+    
   }
   
   export default Upload;

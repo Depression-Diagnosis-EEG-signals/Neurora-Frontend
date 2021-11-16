@@ -8,6 +8,8 @@ import Navi from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
+import Upload from "./components/Upload/Upload";
+
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/upload" element={<Upload />} />
+
         </Routes>
         <Footer />
       </div>

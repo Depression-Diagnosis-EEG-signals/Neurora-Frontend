@@ -1,7 +1,8 @@
 .Upload {
     background-color: rgb(203, 229, 248);
     align-items: center;
-    padding-top: 0%;
+    padding-top: 3%;
+    padding-bottom: 4%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,4 +20,11 @@
     margin-right: 25%;
     padding-bottom: 19px;
 
+}
+
+.btt {
+    margin-top: 8%;
+    padding-left: 45%;
+   
+   
 }
