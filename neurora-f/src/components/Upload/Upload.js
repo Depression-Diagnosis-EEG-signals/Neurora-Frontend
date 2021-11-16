@@ -10,14 +10,14 @@ function Upload() {
         
           <p className="head">Upload EEG Signals</p>
 
-      <div className="form">  
+      <div className="uform">  
           <Form>
-  <Form.Group as={Row} className="mb-3" controlId="formBasicEmail">
+  <Form.Group as={Row} className="mb-3" >
     <Form.Label column sm="2">
       Doctor ID
     </Form.Label>
     <Col sm="10">
-      <Form.Control type="email" size="lg" placeholder="Enter Doctor ID" />
+      <Form.Control type="doctorid" size="lg"  placeholder="Enter Doctor ID" />
     </Col>
   </Form.Group>
 
@@ -26,7 +26,7 @@ function Upload() {
       Patient ID
     </Form.Label>
     <Col sm="10">
-      <Form.Control type="password" size="lg" placeholder="Enter patient ID" />
+      <Form.Control type="patientid" size="lg" placeholder="Enter patient ID" />
     </Col>
   </Form.Group>
   <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
