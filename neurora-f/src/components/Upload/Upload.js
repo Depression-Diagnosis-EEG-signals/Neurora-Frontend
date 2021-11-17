@@ -53,8 +53,16 @@ function Upload() {
       <Form.Control type="recording" size="lg" placeholder="hh:mm" />
     </Col>
   </Form.Group>
+  <Form.Group as={Row} className="mb-3" controlId="formPlaintextPassword">
+    <Form.Label column sm="2">
+      Recording Type
+    </Form.Label>
+    <Col sm="10">
+      <Form.Control type="name" size="lg" placeholder="Enter format of recorded eeg signals" />
+    </Col>
+  </Form.Group>
   <Form.Group controlId="formFile"  className="mb-3">
-    <Form.Label>Upload recording in csv format-</Form.Label>
+    <Form.Label>Upload recording</Form.Label>
     <Form.Control type="file"  size="lg"  />
   </Form.Group>
 </Form>
