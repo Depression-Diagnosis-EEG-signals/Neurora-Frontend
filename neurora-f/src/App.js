@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Upload from "./components/Upload/Upload";
-
+import Forgot from "./components/ForgotPassword/Forgot";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/upload" element={<Upload />} />
-
+          <Route path="/forgot" element={<Forgot />} />
         </Routes>
         <Footer />
       </div>

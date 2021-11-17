@@ -1,11 +1,11 @@
-import "./Login.css";
+import "./Forgot.css";
 
 const toggleForm = () => {
   const container = document.querySelector(".container");
   container.classList.toggle("active");
 };
 
-function Login() {
+function Forgot() {
   return (
     <div className="App">
       <section>
@@ -19,9 +19,12 @@ function Login() {
             </div>
             <div class="formBx">
               <form action="" onsubmit="return false;" autocomplete="on">
-                <h2>Sign In</h2>
-                <input type="text" name="" placeholder="Username" />
-                <input type="password" name="" placeholder="Password" />
+                <h2>Forgot Password?</h2>
+                <p class="signup">
+                  Enter the email address associated with your account and we'll
+                  send you a link to reset your password.
+                </p>
+                <input type="email" name="" placeholder="Email" />
                 <select id="role" name="role" placeholder="Select your Role">
                   <option value="" disabled selected>
                     Select your Role
@@ -30,12 +33,7 @@ function Login() {
                   <option value="Patient">Patient</option>
                   <option value="Admin">Admin</option>
                 </select>
-                <input href="/home" type="submit" name="" value="Login" />
-                <p class="signup">
-                  <a href="/forgot" onClick={toggleForm}>
-                    Forgot Password?
-                  </a>
-                </p>
+                <input href="/home" type="submit" name="" value="Continue" />
                 <p class="signup">
                   Don't have an account ?
                   <a href="/signup" onClick={toggleForm}>
@@ -51,4 +49,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Forgot;

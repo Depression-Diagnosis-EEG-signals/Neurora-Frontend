@@ -23,7 +23,7 @@ body{
     border-radius: .25rem;
 }
 
-.card-body {
+.card-body-prof {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem;
