@@ -128,6 +128,9 @@ function Contact() {
                 </label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
+              <button type="button" class="btn btn-info">
+                Send
+              </button>
             </form>
           </div>
         </div>

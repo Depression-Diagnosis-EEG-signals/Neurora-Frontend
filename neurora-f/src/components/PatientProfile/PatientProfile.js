@@ -1,8 +1,8 @@
-import "./patientProfile.css";
+import "./PatientProfile.css";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
-function patientProfile() {
+function PatientProfile() {
   return (
     <div className="container">
       <div className="main-body">
@@ -21,7 +21,6 @@ function patientProfile() {
                     <h4>Doctor Name</h4>
                     <p className="text-secondary mb-1">Specialization</p>
                     <p className="text-muted font-size-sm">Hospital Name</p>
-
                     <button className="btn btn-outline-primary butn">
                       Message
                     </button>
@@ -143,4 +142,4 @@ function patientProfile() {
   );
 }
 
-export default patientProfile;
+export default PatientProfile;

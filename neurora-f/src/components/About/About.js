@@ -143,8 +143,7 @@ function About() {
                   ></path>
                 </svg>
                 <h5 class="card-title card-title-css">
-                  Neurology <br />
-                  Practices
+                  Clinical Trial Sponsors or CROs
                 </h5>
                 <a href="#part4" class="btn btn-outline-info">
                   Go somewhere
@@ -188,7 +187,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div class="row g-0 details-card-row-right" id="part4">
+          <div class="row g-0 details-card-row-right" id="part2">
             <div class="col-6">
               <div class="card-body">
                 <h2 class="card-title">In-Home Ambulatory EEG Providers</h2>
