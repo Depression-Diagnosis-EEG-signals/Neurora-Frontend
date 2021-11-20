@@ -7,10 +7,10 @@ import PatientProfile from "./components/PatientProfile/PatientProfile";
 import Home from "./components/Home/Home";
 import Navi from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Login from "./components/Login/Login";
-import Signup from "./components/Signup/Signup";
+import Login from "./components/Auth/Login";
+import Signup from "./components/Auth/Signup";
 import Upload from "./components/Upload/Upload";
-import Forgot from "./components/ForgotPassword/Forgot";
+import Forgot from "./components/Auth/Forgot";
 
 function App() {
   return (
