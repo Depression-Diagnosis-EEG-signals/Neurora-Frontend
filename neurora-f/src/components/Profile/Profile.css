@@ -53,8 +53,8 @@ body{
     box-shadow: none!important;
 }
 
-.butn {
-    margin-bottom: 15px;
+.leftcard {
+    margin-bottom: 52px;
 }
 
 .phead {
@@ -82,3 +82,15 @@ body{
 .bbb {
     background-color: #7971EA;
 }
+
+.btnn {
+    background-color: #fff;
+    border: none;
+    color: red;
+    padding-left: 2rem;
+    font-size: 21px;
+    cursor: pointer;
+    
+  }
+  
+ 

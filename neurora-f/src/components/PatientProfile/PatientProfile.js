@@ -118,6 +118,7 @@ function PatientProfile() {
                     <u>View report</u>
                   </a>
                 </div>
+                
               </div>
               <hr />
               <div className="row">

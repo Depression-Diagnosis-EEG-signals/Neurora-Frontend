@@ -9,7 +9,7 @@ function Profile() {
         <div className="row gutters-sm">
           <div className="col-md-4 mb-3">
             <div className="card">
-              <div className="card-body card-body-prof">
+              <div className="card-body card-body-prof leftcard">
                 <div className="d-flex flex-column align-items-center text-center">
                   <img
                     src="https://bootdey.com/img/Content/avatar/avatar7.png"
@@ -22,9 +22,7 @@ function Profile() {
                     <p className="text-secondary mb-1">Specialization</p>
                     <p className="text-muted font-size-sm">Hospital Name</p>
 
-                    <button className="btn btn-outline-primary butn">
-                      Message
-                    </button>
+                   
                   </div>
                 </div>
               </div>
@@ -86,7 +84,7 @@ function Profile() {
                 <h3>Patients:</h3>
               </div>
               <div className="col-sm-2">
-                <Button className=" btn bbb" as={Link} to={"/addpatinet"}>
+                <Button className=" btn bbb" as={Link} to={"/addpatient"}>
                   Add Patient
                 </Button>{" "}
               </div>
@@ -114,11 +112,15 @@ function Profile() {
                     <u>Upload EEG</u>
                   </a>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-2">
                   <a href="/report" className="linkclr">
                     <u>View report</u>
                   </a>
                 </div>
+                <div className="col-sm-1">
+                <button class="btnn"><i class="fa fa-trash"></i></button>
+                </div>
+
               </div>
               <hr />
               <div className="row">
@@ -129,11 +131,15 @@ function Profile() {
                     <u>Upload EEG</u>
                   </a>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-2">
                   <a href="/report" className="linkclr">
                     <u>View report</u>
                   </a>
                 </div>
+                <div className="col-sm-1">
+                <button class="btnn"><i class="fa fa-trash"></i></button>
+                </div>
+
               </div>
             </div>
           </div>
