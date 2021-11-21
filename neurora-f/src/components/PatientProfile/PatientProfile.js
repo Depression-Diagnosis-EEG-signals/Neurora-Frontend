@@ -20,7 +20,7 @@ function PatientProfile() {
                   <div className="mt-3">
                     <h4>Pateint Name</h4>
                     <p>Doctor: (Doctor's name) </p>
-                    <p>Hosptal: (Hospital Name)  </p>
+                    <p>Hospital Name  </p>
                    
                   </div>
                 </div>
@@ -73,62 +73,23 @@ function PatientProfile() {
         </div>
         <div className="card">
           <div className="card-body card-body-prof patcard">
-            <div className=" row phead">
-              <div className="col-sm-10">
-                <h3>Patients:</h3>
-              </div>
-              <div className="col-sm-2">
-                <Button className=" btn bbb" as={Link} to={"/addpatinet"}>
-                  Add Patient
-                </Button>{" "}
-              </div>
-            </div>
+         
 
             <div className="row">
-              <div className="col-sm-3">
+              <div className="col-sm-6">
                 <h5 className="pathd">
-                  <i>Patient Name</i>
+                  Medical History
                 </h5>
               </div>
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <h5 className="pathd">
-                  {" "}
-                  <i>Patient ID</i>
+                <a href="/report" className="linkclr">
+                    <u>View report</u>
+                  </a>
                 </h5>
               </div>
             </div>
-            <div className="patients">
-              <div className="row">
-                <div className="col-sm-3">Pateint 1</div>
-                <div className="col-sm-3">Pateint1 id</div>
-                <div className="col-sm-3">
-                  <a href="/upload" className="linkclr">
-                    <u>Upload EEG</u>
-                  </a>
-                </div>
-                <div className="col-sm-3">
-                  <a href="/report" className="linkclr">
-                    <u>View report</u>
-                  </a>
-                </div>
-                
-              </div>
-              <hr />
-              <div className="row">
-                <div className="col-sm-3">Pateint 2</div>
-                <div className="col-sm-3 ">Pateint2 id</div>
-                <div className="col-sm-3">
-                  <a href="/upload" className="linkclr">
-                    <u>Upload EEG</u>
-                  </a>
-                </div>
-                <div className="col-sm-3">
-                  <a href="/report" className="linkclr">
-                    <u>View report</u>
-                  </a>
-                </div>
-              </div>
-            </div>
+     
           </div>
         </div>
       </div>
