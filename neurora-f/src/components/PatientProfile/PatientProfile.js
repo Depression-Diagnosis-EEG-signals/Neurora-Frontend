@@ -19,11 +19,9 @@ function PatientProfile() {
                   />
                   <div className="mt-3">
                     <h4>Pateint Name</h4>
-                    <p className="text-secondary mb-1">Specialization</p>
-                    <p className="text-muted font-size-sm">Hospital Name</p>
-                    <button className="btn btn-outline-primary butn">
-                      Message
-                    </button>
+                    <p>Doctor: (Doctor's name) </p>
+                    <p>Hosptal: (Hospital Name)  </p>
+                   
                   </div>
                 </div>
               </div>
@@ -31,17 +29,17 @@ function PatientProfile() {
           </div>
           <div className="col-md-8">
             <div className="card mb-3">
-              <div className="card-body card-body-prof">
+              <div className="card-body card-body-prof rightcard">
                 <div className="row">
                   <div className="col-sm-3">
                     <h6 className="mb-0">Full Name</h6>
                   </div>
-                  <div className="col-sm-9 text-secondary">Doctor Name</div>
+                  <div className="col-sm-9 text-secondary">Patient Name</div>
                 </div>
                 <hr />
                 <div className="row">
                   <div className="col-sm-3">
-                    <h6 className="mb-0">Doctor ID</h6>
+                    <h6 className="mb-0">Patient ID</h6>
                   </div>
                   <div className="col-sm-9 text-secondary">1234</div>
                 </div>
@@ -55,21 +53,16 @@ function PatientProfile() {
                 <hr />
                 <div className="row">
                   <div className="col-sm-3">
-                    <h6 className="mb-0">Specialization</h6>
+                    <h6 className="mb-0">Address</h6>
                   </div>
                   <div className="col-sm-9 text-secondary">abcd</div>
                 </div>
                 <hr />
-                <div className="row">
-                  <div className="col-sm-3">
-                    <h6 className="mb-0">Qualificaton</h6>
-                  </div>
-                  <div className="col-sm-9 text-secondary">abcd</div>
-                </div>
-                <hr />
+               
+               
                 <div className="row">
                   <div className="col-sm-12">
-                    <a className="btn btn-info " target="__blank">
+                    <a className="btn btn-info" href="/editpatient">
                       Edit
                     </a>
                   </div>

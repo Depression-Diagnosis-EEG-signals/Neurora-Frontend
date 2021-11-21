@@ -68,7 +68,7 @@ function Profile() {
                 <hr />
                 <div className="row">
                   <div className="col-sm-12">
-                    <a className="btn btn-info " target="__blank">
+                    <a className="btn btn-info "  href="/editdoctor">
                       Edit
                     </a>
                   </div>

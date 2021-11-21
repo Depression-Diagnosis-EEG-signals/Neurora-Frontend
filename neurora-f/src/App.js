@@ -13,6 +13,9 @@ import Signup from "./components/Auth/Signup";
 import Upload from "./components/Upload/Upload";
 import Forgot from "./components/Auth/Forgot";
 import Reset from "./components/Auth/Reset";
+import EditDoctor from "./components/EditProfile/EditDoctor";
+import EditPatient from "./components/EditProfile/EditPatient";
+
 
 function App() {
   return (
@@ -31,6 +34,8 @@ function App() {
           <Route path="/upload" element={<Upload />} />
           <Route path="/forgot" element={<Forgot />} />
           <Route path="/reset" element={<Reset />} />
+          <Route path="/editdoctor" element={<EditDoctor />} />
+          <Route path="/editpatient" element={<EditPatient />} />
         </Routes>
         <Footer />
       </div>
