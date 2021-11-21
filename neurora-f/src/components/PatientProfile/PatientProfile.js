@@ -18,7 +18,7 @@ function PatientProfile() {
                     width={150}
                   />
                   <div className="mt-3">
-                    <h4>Doctor Name</h4>
+                    <h4>Pateint Name</h4>
                     <p className="text-secondary mb-1">Specialization</p>
                     <p className="text-muted font-size-sm">Hospital Name</p>
                     <button className="btn btn-outline-primary butn">
