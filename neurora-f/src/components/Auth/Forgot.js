@@ -6,6 +6,7 @@ import Error from "./Error";
 const defaultState = {
   role: "",
   email: "",
+  username: "",
 };
 
 const toggleForm = () => {
@@ -53,6 +54,24 @@ function Forgot() {
                   }}
                 />
                 <Error error={errors.email} />
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  onChange={(e) =>
+                    dispatchState({
+                      type: "UPDATE",
+                      data: [e.target.name, e.target.value],
+                    })
+                  }
+                  onBlur={(e) => {
+                    dispatchErrors({
+                      type: "CHECK",
+                      data: [formstate, e.target.name],
+                    });
+                  }}
+                />
+                <Error error={errors.username} />
                 <select
                   id="role"
                   name="role"

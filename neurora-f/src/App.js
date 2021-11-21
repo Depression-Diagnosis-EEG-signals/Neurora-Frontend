@@ -11,6 +11,7 @@ import Login from "./components/Auth/Login";
 import Signup from "./components/Auth/Signup";
 import Upload from "./components/Upload/Upload";
 import Forgot from "./components/Auth/Forgot";
+import Reset from "./components/Auth/Reset";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/upload" element={<Upload />} />
           <Route path="/forgot" element={<Forgot />} />
+          <Route path="/reset" element={<Reset />} />
         </Routes>
         <Footer />
       </div>
