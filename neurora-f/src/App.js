@@ -13,6 +13,7 @@ import Signup from "./components/Auth/Signup";
 import Upload from "./components/Upload/Upload";
 import Forgot from "./components/Auth/Forgot";
 import Reset from "./components/Auth/Reset";
+import Report from "./components/Report/Report";
 import EditDoctor from "./components/EditProfile/EditDoctor";
 import EditPatient from "./components/EditProfile/EditPatient";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/reset" element={<Reset />} />
           <Route path="/editdoctor" element={<EditDoctor />} />
           <Route path="/editpatient" element={<EditPatient />} />
+          <Route path="/report" element={<Report />} />
         </Routes>
         <Footer />
       </div>
