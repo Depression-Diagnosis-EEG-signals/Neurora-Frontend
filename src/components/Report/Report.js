@@ -1,92 +1,43 @@
-import './Report.css';
+import "./Report.css";
 
 function Report() {
-    return (
-        <div className="reportbox">
-            <h2>Report</h2>
-           <table class="table table-bordered">
-  <thead>
-    <tr>
-     
-      <th scope="col">Model</th>
-      <th scope="col">Prediction</th>
-     
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-     
-      <td>Model 1</td>
-      <td>x</td>
-      
-    </tr>
-    <tr>
-     
-      <td>Model 2</td>
-      <td>x</td>
-     
-    </tr>
-    <tr>
-     
-     <td>Model 3</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 4</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 5</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 6</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 7</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 8</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 9</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 10</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 11</td>
-     <td>x</td>
-    
-   </tr> <tr>
-     
-     <td>Model 12</td>
-     <td>x</td>
-       
-   </tr>
-  
-   
-  </tbody>
-</table>
-<h4>Final Prediction: </h4>
-<div>
-<h5>Add Doctor's remarks-</h5>
-<textarea type="text" placeholder="Remarks/Further treatment" className="ibox"></textarea>
-</div>
-        </div>
-    );
+  // const response = axios.post......
+  const report = JSON.parse(
+    '{"Model 1": "Depression", "Model 2": "Depression", "Model 3": "Depression", "Model 4": "Depression", "Model 5": "Depression", "Model 6": "Depression", "Model 7": "Depression", "Model 8": "Depression", "Model 9": "Depression", "Model 10": "Depression", "Model 11": "Depression", "Model 12": "Depression"}'
+  );
+  console.log(report);
+
+  return (
+    <div className="reportbox">
+      <h2>Report</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Model</th>
+            <th scope="col">Prediction</th>
+          </tr>
+        </thead>
+        <tbody>
+          {Object.entries(report).map(([key, value]) => {
+            return (
+              <tr>
+                <td>{key}</td>
+                <td>{value.toString()}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+      <h4>Final Prediction: </h4>
+      <div>
+        <h5>Add Doctor's remarks-</h5>
+        <textarea
+          type="text"
+          placeholder="Remarks/Further treatment"
+          className="ibox"
+        ></textarea>
+      </div>
+    </div>
+  );
 }
 export default Report;
