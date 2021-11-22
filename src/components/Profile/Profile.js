@@ -1,5 +1,6 @@
 import "./Profile.css";
-import "../EditProfile/EditProfile.css";
+import "./EditProfile.css";
+import image from "./image.jpg";
 
 function Profile() {
   return (
@@ -11,7 +12,7 @@ function Profile() {
               <div className="card-body card-body-prof leftcard">
                 <div className="d-flex flex-column align-items-center text-center">
                   <img
-                    src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                    src={image}
                     alt="Admin"
                     className="rounded-circle"
                     width={150}

@@ -1,6 +1,5 @@
 import "./PatientProfile.css";
-import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
+import image from "../Profile/image.jpg";
 
 function PatientProfile() {
   return (
@@ -12,13 +11,13 @@ function PatientProfile() {
               <div className="card-body card-body-prof">
                 <div className="d-flex flex-column align-items-center text-center">
                   <img
-                    src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                    src={image}
                     alt="Admin"
                     className="rounded-circle"
                     width={150}
                   />
                   <div className="mt-3">
-                    <h4>Pateint Name</h4>
+                    <h3>Pateint Name</h3>
                     <p>Doctor: (Doctor's name) </p>
                     <p>Hospital Name  </p>
                    

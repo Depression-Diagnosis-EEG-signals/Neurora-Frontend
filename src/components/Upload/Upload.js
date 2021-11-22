@@ -135,9 +135,7 @@ const Upload = () => {
                 <Error error={errors.patient_id} />
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 left"></div>
+        
             <div class="col-sm-6 right">
               <div class="form-group mb-3" controlId="formPlaintextPassword">
                 <label>Recording Type</label>
@@ -167,7 +165,7 @@ const Upload = () => {
                 <Error error={errors.type} />
               </div>
             </div>
-          </div>
+         </div>
           <div class="row">
             <div class="col-sm-6 left">
               <div controlId="formFile" class="mb-3 ">
