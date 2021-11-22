@@ -1,9 +1,8 @@
 
 .editbox {
     
-    padding-top: 12%;
-    padding-left: 12%;
-    padding-right: 12%;
+    
+    width: 1000px;
     font-size: 18px;
     font-weight: 600;
     color: #333;
@@ -25,8 +24,3 @@ form input {
 
 }
 
-.buut {
-    margin-left: 38%;
-    background: #677eff;
-    margin-top: 2rem;
-}

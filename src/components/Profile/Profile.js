@@ -1,4 +1,5 @@
 import "./Profile.css";
+import "../EditProfile/EditProfile.css";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
@@ -68,11 +69,76 @@ function Profile() {
                 <hr />
                 <div className="row">
                   <div className="col-sm-12">
-                    <a className="btn btn-info "  href="/editdoctor">
+                    <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
                       Edit
-                    </a>
+                    </button>
                   </div>
                 </div>
+              
+               
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Edit Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+              <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Name</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="name" class="form-control" placeholder=" name"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Phone</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder=" phone"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4">
+    <label  class="form-label">Specialization</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="text" class="form-control" placeholder=" Specialization"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Qualification</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder="Qualification "/>
+    </div>
+    </div>
+</form>
+                
+            
+            
+        
+       
+     
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
               </div>
             </div>
           </div>
@@ -84,11 +150,123 @@ function Profile() {
                 <h3>Patients:</h3>
               </div>
               <div className="col-sm-2">
-                <Button className=" btn bbb" as={Link} to={"/addpatient"}>
+                <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
                   Add Patient
-                </Button>{" "}
+                </button>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Add Patient</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+              <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Patient Name</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="name" class="form-control" placeholder=" name"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Patient ID</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder="patient ID "/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4">
+    <label  class="form-label">Specialization</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="text" class="form-control" placeholder=" Specialization"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Qualification</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder="Qualification "/>
+    </div>
+    </div>
+</form>
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
               </div>
             </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Add Patient</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+              <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Patient Name</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="name" class="form-control" placeholder=" name"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Patient ID</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder="patient ID "/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4">
+    <label  class="form-label">Specialization</label>
+    </div>
+    <div className="col-sm-8">
+    <input type="text" class="form-control" placeholder=" Specialization"/>
+    </div>
+    </div>
+    <div className="row"> 
+        <div className="col-sm-4 ">
+    <label  class="form-label">Qualification</label>
+    </div>
+    <div className="col-sm-8 ">
+    <input type="text" class="form-control" placeholder="Qualification "/>
+    </div>
+    </div>
+</form>
+                
+            
+            
+        
+       
+     
+     
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
             <div className="row">
               <div className="col-sm-3">
@@ -145,7 +323,7 @@ function Profile() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 
