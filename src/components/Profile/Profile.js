@@ -69,7 +69,7 @@ function Profile() {
                 <hr />
                 <div className="row">
                   <div className="col-sm-12">
-                    <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
+                    <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter1">
                       Edit
                     </button>
                   </div>
@@ -78,7 +78,7 @@ function Profile() {
                
 
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -94,7 +94,7 @@ function Profile() {
     <label  class="form-label">Name</label>
     </div>
     <div className="col-sm-8">
-    <input type="name" class="form-control" placeholder=" name"/>
+    <input type="name" class="form-control" placeholder="name"/>
     </div>
     </div>
     <div className="row"> 
@@ -102,7 +102,7 @@ function Profile() {
     <label  class="form-label">Phone</label>
     </div>
     <div className="col-sm-8 ">
-    <input type="text" class="form-control" placeholder=" phone"/>
+    <input type="text" class="form-control" placeholder="phone"/>
     </div>
     </div>
     <div className="row"> 
@@ -110,7 +110,7 @@ function Profile() {
     <label  class="form-label">Specialization</label>
     </div>
     <div className="col-sm-8">
-    <input type="text" class="form-control" placeholder=" Specialization"/>
+    <input type="text" class="form-control" placeholder="Specialization"/>
     </div>
     </div>
     <div className="row"> 
@@ -150,10 +150,10 @@ function Profile() {
                 <h3>Patients:</h3>
               </div>
               <div className="col-sm-2">
-                <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter">
+                <button className="btn btn-info " data-toggle="modal" data-target="#exampleModalCenter2">
                   Add Patient
                 </button>
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -178,22 +178,6 @@ function Profile() {
     </div>
     <div className="col-sm-8 ">
     <input type="text" class="form-control" placeholder="patient ID "/>
-    </div>
-    </div>
-    <div className="row"> 
-        <div className="col-sm-4">
-    <label  class="form-label">Specialization</label>
-    </div>
-    <div className="col-sm-8">
-    <input type="text" class="form-control" placeholder=" Specialization"/>
-    </div>
-    </div>
-    <div className="row"> 
-        <div className="col-sm-4 ">
-    <label  class="form-label">Qualification</label>
-    </div>
-    <div className="col-sm-8 ">
-    <input type="text" class="form-control" placeholder="Qualification "/>
     </div>
     </div>
 </form>
