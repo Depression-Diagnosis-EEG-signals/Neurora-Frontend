@@ -1,7 +1,7 @@
 import "./auth.css";
 import { useReducer } from "react";
-import authreducer from "../../reducers/authreducer";
-import Error from "./Error";
+import formreducer from "../../reducers/formreducer";
+import Error from "../Error/Error";
 
 const defaultState = {
   role: "",
@@ -10,8 +10,8 @@ const defaultState = {
 };
 
 function Login() {
-  const [formstate, dispatchState] = useReducer(authreducer, defaultState);
-  const [errors, dispatchErrors] = useReducer(authreducer, defaultState);
+  const [formstate, dispatchState] = useReducer(formreducer, defaultState);
+  const [errors, dispatchErrors] = useReducer(formreducer, defaultState);
 
   return (
     <div className="App">
@@ -39,7 +39,7 @@ function Login() {
                   }
                   onBlur={(e) => {
                     dispatchErrors({
-                      type: "CHECK",
+                      type: "CHECK_AUTH",
                       data: [formstate, e.target.name],
                     });
                   }}
@@ -57,7 +57,7 @@ function Login() {
                   }
                   onBlur={(e) => {
                     dispatchErrors({
-                      type: "CHECK",
+                      type: "CHECK_AUTH",
                       data: [formstate, e.target.name],
                     });
                   }}
@@ -76,7 +76,7 @@ function Login() {
                   }
                   onBlur={(e) => {
                     dispatchErrors({
-                      type: "CHECK",
+                      type: "CHECK_AUTH",
                       data: [formstate, e.target.name],
                     });
                   }}

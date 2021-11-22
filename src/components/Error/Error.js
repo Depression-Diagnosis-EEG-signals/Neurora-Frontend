@@ -1,3 +1,5 @@
+import "./error.css";
+
 const Error = (props) => {
   const error = props.error;
 

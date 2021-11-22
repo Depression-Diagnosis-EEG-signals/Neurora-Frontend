@@ -1,4 +1,4 @@
-const generateError = (formstate, name) => {
+const generateAuthError = (formstate, name) => {
   let error = "";
   if (formstate[name] === "") {
     error = `This field is required`;
@@ -36,4 +36,4 @@ const generateError = (formstate, name) => {
   return error;
 };
 
-export default generateError;
+export default generateAuthError;

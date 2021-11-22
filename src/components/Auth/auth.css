@@ -174,19 +174,3 @@ section .container.active .signinBx .imgBx {
     width: 100%;
   }
 }
-
-.error-text {
-  color: red;
-  font-size: 0.8rem;
-}
-
-.invalid {
-  border-color: red;
-}
-
-.invalid:focus {
-  border-color: #ff0000;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
-    0px 0px 8px rgba(255, 100, 255, 0.5);
-}
-
