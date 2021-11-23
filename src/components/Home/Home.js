@@ -4,7 +4,7 @@ import neuro from "./Image/neuro.png";
 import doc from "./Image/doctor.png";
 import patient from "./Image/hpatient.png";
 
-import { Container, Accordion, Image } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 function Home() {
   return (
