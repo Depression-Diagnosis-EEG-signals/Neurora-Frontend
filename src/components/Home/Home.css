@@ -1,80 +1,49 @@
 .Home{
-    font-family: 'Raleway' , sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.learn-more-btn{
-    padding-left: 5px;
-    padding-right: 5px;
+.Home h1{
+    color:#1A2C5B;
+    padding-bottom: 26px;
+}
+.img1 {
+    height: 280px;
+    width: 280px;
+}
+.img2 {
+    height: 160px;
+    width: 160px;
+    margin-top: 22px;
+}
+.img4 {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+.firstt{
+    font-size: 22px;
 }
 
-.learn-more-btn:link, .learn-more-btn:visited {
-    color: #7971ea;
-    text-decoration: underline;
-    cursor: auto;
+.textt {
+    font-size: 21px;
+    margin-top: 4rem;
 }
 
+.doctor p{
+        font-size: 21px;
+      padding-left: 20px;
+    
+}
+.doctor h3{
+    color:#338c94;
+    margin-top: 1.5rem;
+    margin-bottom:  1.5rem;
 
-.learn-more-btn:link:active, a:visited:active {
-    color: #000000;
+
 }
 
-
-/* Cards */
-.col{
-    padding: 25px;
+.endline {
+    padding-top: 7rem;
+    font-size: 21px;
+    font-family:'Brush Script MT', Brush Script Std;
     text-align: center;
 }
-
-.col1{
-    background-color: #1a2c5b;
-}
-
-.col2{
-    background-color: #3e4e88;
-}
-
-.col3{
-    background-color: #7971ea;
-}
-
-.home-card-content{
-    margin: auto;
-}
-
-.home-card-svg-title{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.home-card-svg-title-text{
-    color: #f5f3f3;
-}
-
-.home-card-svg-title-para{
-    padding-top: 15px;
-    margin: auto;
-    color: #f5f3f3;
-    font-size: 0.7em;
-}
-
-.about-clinic{
-    padding-top: 150px;
-}
-
-.about-clinic-content-heading{
-    font-size: 50px;
-}
-
-.about-clinic-content-byline{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.about-clinic-content{
-    padding-top: 25px;
-}
-
-
-/* accordion */
-
-
